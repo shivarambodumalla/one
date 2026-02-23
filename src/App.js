@@ -6,6 +6,7 @@ import { TopControls } from './components/TopControls';
 import { PrototypeGrid } from './components/PrototypeGrid';
 import { PROTOTYPES } from './data/prototypes';
 import GuruDashboardApp from './projects/guru-dashboard/index.jsx';
+import ContentDeliveryApp from './projects/delivery/index.jsx';
 import './App.css';
 
 function HomePage() {
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/guru-dashboard/*" element={<GuruDashboardApp />} />
+        <Route path="/delivery/*" element={<ContentDeliveryApp />} />
       </Routes>
     </BrowserRouter>
   );

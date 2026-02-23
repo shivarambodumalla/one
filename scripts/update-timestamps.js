@@ -22,18 +22,29 @@ let source = fs.readFileSync(DATA_FILE, 'utf8');
 const PROTO_REGEX = /\{\s*id:\s*'([^']+)'[\s\S]*?slug:\s*'([^']+)'[\s\S]*?updatedAt:\s*'([^']*)'/g;
 
 source = source.replace(PROTO_REGEX, (match, id, slug, _current) => {
-    let isoDate = '';
-    try {
-        const protoDir = `public/${slug}`;
-        isoDate = execSync(
-            `git log -1 --format=%aI -- ${protoDir}`,
-            { cwd: path.join(__dirname, '..'), encoding: 'utf8' }
-        ).trim();
-    } catch (_) { }
+    const getGitDate = (dir) => {
+        try {
+            return execSync(
+                `git log -1 --format=%aI -- ${dir}`,
+                { cwd: path.join(__dirname, '..'), encoding: 'utf8' }
+            ).trim();
+        } catch (_) { return ''; }
+    };
 
-    // Fallback: if no git history yet, use current time
+    // Check both src/projects/<slug> and public/<slug>, use the more recent one
+    const srcDate = getGitDate(`src/projects/${slug}`);
+    const pubDate = getGitDate(`public/${slug}`);
+
+    let isoDate = '';
+    if (srcDate && pubDate) {
+        isoDate = srcDate > pubDate ? srcDate : pubDate;
+    } else {
+        isoDate = srcDate || pubDate;
+    }
+
+    // Fallback: use the repo's last commit date (always a real git timestamp)
     if (!isoDate) {
-        isoDate = new Date().toISOString();
+        isoDate = getGitDate('.') || new Date().toISOString();
     }
 
     return match.replace(/updatedAt:\s*'[^']*'/, `updatedAt: '${isoDate}'`);
