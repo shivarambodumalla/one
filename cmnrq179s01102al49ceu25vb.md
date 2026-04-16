@@ -2,7 +2,7 @@
 title: "Your CV Is Failing Before a Human Sees It (Here’s Why)"
 seoTitle: "Your CV Is Getting Rejected Before Anyone Sees It "
 seoDescription: "Most CVs are rejected by ATS before reaching recruiters. Learn how to fix keywords, formatting, and bullet points to improve your resume and get more "
-datePublished: 2026-04-09T16:58:36.689Z
+datePublished: 2026-03-28T03:30:00.000Z
 cuid: cmnrq179s01102al49ceu25vb
 slug: your-cv-is-failing-before-a-human-sees-it-here-s-why
 cover: https://cdn.hashnode.com/uploads/covers/69d77f35fa7251682e87ff3b/417f8548-9d7d-4ae4-a6b5-d776e5a707e6.jpg
