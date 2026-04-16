@@ -7,7 +7,8 @@ it with AI. No credit card. 90+ scor"
 datePublished: 2026-04-16T10:33:53.021Z
 cuid: cmo1cdegq003k2dnn8hqf7jzz
 slug: free-ats-checker-how-to-check-your-cv-score-in-2026
-ogImage: https://cdn.hashnode.com/uploads/og-images/69d77f35fa7251682e87ff3b/d16185c7-a355-470d-90b8-cd196c5d1c0f.jpg
+cover: https://cdn.hashnode.com/uploads/covers/69d77f35fa7251682e87ff3b/36d21c98-f4b3-4bec-b274-3e88892ea0f2.jpg
+ogImage: https://cdn.hashnode.com/uploads/og-images/69d77f35fa7251682e87ff3b/efbd6896-d259-42f0-8aec-d9024c7d6efa.jpg
 tags: resume-writing, resume-optimization, free-resume-builder, free-ai-resume-builder-review, free-ats-checker, ats-score, cv-check, ats-optimisation, cv-optimisation, resume-optimisation, free-ai-resume-review, check-ats-score
 
 ---
