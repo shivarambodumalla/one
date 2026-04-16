@@ -4,7 +4,7 @@ seoTitle: "How to Tailor Your CV for a Job Description in 2026 | CVEdge"
 seoDescription: "Sending the same CV to every job is killing your chances. 
 Learn how to tailor your CV for any job description 
 in under 5 minutes using AI. Free tool"
-datePublished: 2026-04-12T03:30:00.000Z
+datePublished: 2026-03-20T03:30:00.000Z
 cuid: cmo1dua9m006u2dnnfhb9d3iv
 slug: how-to-tailor-your-cv-for-a-job-description
 cover: https://cdn.hashnode.com/uploads/covers/69d77f35fa7251682e87ff3b/5993c1ac-db2b-41f5-937e-3cecb006b831.jpg
