@@ -4,7 +4,7 @@ seoTitle: "How to Write Resume Bullets That Pass ATS in 2026 | CVEdge"
 seoDescription: "Weak resume bullets get filtered by ATS before anyone 
 reads them. Learn the exact formula for writing bullets 
 that pass ATS and impress recruiters. "
-datePublished: 2026-04-16T11:10:56.846Z
+datePublished: 2026-04-01T03:30:00.000Z
 cuid: cmo1dp2do006l2dnnfhn437vl
 slug: how-to-write-resume-bullets-that-pass-ats
 cover: https://cdn.hashnode.com/uploads/covers/69d77f35fa7251682e87ff3b/d81af90b-ee79-41a3-848b-2833edaddbe6.jpg
